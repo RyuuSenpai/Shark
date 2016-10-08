@@ -1,0 +1,361 @@
+/*
+ Localizable.strings
+ Sharekni
+ 
+ Created by Ahmed Askar on 10/9/15.
+ 
+ */
+
+"In order to change language you have to re-open the application" =  "لكي تتمكن من تغيير اللغة يجب إعادة فتح التطبيق مرة أخري";
+"Close Now" = "إغلاق الآن";
+"No" = "لا";
+"Take a tour" = "جولة في شاركني";
+
+"Back_icn" = "Back_icn_right";
+"username" = "اسم المستخدم";
+"Username (Your Email)" = "اسم المستخدم (البريد الإلكتروني)";
+"Password" = "كلمة المرور";
+"firstName" = "الاسم الاول";
+"lastName"  = "الاسم الأخير";
+"mobile"    = "رقم الهاتف";
+"nationality" = "الجنسية";
+"pLanguage" = "اللغة المفضلة";
+"Submit" = "إرسال";
+
+"nameReq" = "من فضلك أدخل اسم المستخدم";
+"passReq" = "من فضلك أدخل كلمة المرور";
+
+
+"Update" = "تحديث";
+"mobileReq" = "من فضلك أدخل رقم المحمول";
+"mailReq" = "من فضلك أدخل البريد الإلكتروني";
+
+"registration" = "تسجيل";
+"login" = "الدخول";
+"bestDrivers" = "أفضل السائقين";
+"searchOptions" = "البحث";
+"mostRides" = "معظم الجولات";
+"advancedSearch" = "بحث متقدم";
+"quickSearch" = "بحث";
+
+"Please set direction for both Pick up and Drop off" = "من أجل حفظ البحث يجب تحديد نقطة الانطلاق ولوجهة أيضاً";
+
+"Sorry, you can't send any more invitations" = "لا يمكن ارسال المزيد من الدعوات";
+
+"Kg" = "كج";
+"loading" = "تحميل";
+"Loading..." = "تحميل...";
+
+"sharkni" = "شاركني";
+
+"driverDetails" = "تفاصيل السائق";
+"rideDetails" = "تفاصيل الرحلة";
+
+"Sorry, you can't send any more invitations" = "Sorry, you can't send any more invitations";
+
+"submit" = "تأكيد";
+"forget" = "نسيت كلمة المرور";
+"preferedLang" = "الجنسية المفضلة";
+
+//ForgetPassword
+
+"A reset password link has been sent to your email" = "تم إرسال رابط استعادة كلمة المرور على بريدك الإلكتروني. هذا الرابط صالح لمدة ٢٤ ساعة";
+
+"Email are not matching" = "بريد إلكترونى غير متوفر";
+
+//Registeration
+"Please Choose a valid nationality." = "يرجي اختيار الجنيسة";
+"Please Choose acconut type." = "يرجي اختيار نوع الحساب";
+"Please fill all fields" = "يرجى تعبئة جميع الحقول الالزامية";
+"First name mustn't have numbers" = "الاسم الاول يجب ألا يحتوي علي ارقام";
+"Last name mustn't have numbers" = "الاسم الاخير يجب ألا يحتوي علي أرقام";
+"Mobile Number should be only 9 and should start with [50 – 55 – 56 – 52]" = "رقم الجوال يجب أن يكون ٩ أرقام ويبدأ ب [50 – 55 – 56 – 52]";
+"Please enter a valid email address" = "يرجي إدخال بريد إلكتروني صحيح";
+"You should be older than 18 Years"  = "يجب أن تكون أكبر من ١٨ سنة";
+"Select" = "اختر";
+"Cancel" = "إلغاء";
+"Ok" = "موافق";
+"ok" = "موافق";
+"Done" = "موافق";
+"Email already exists" = "لا يمكن التسجيل,هذا البريد الإلكترونى مسجل بالفعل";
+"Mobile number already exists" = "لا يمكن التسجيل,رقم الهاتف مسجل بالفعل";
+"Registration done successfully" = "تم التسجيل بنجاح";
+
+"Choose a language" = "اختيار اللغة";
+"Choose age range" = "اختيار الفئة العمرية";
+"Select Nationality" = "اختر الجنسية";
+
+"Fill in the email address please" = "حقل البريد الإلكترونى إلزامى" ;
+
+"Age Range" = "الفئة العمرية";
+//Home
+"Home Page" = "الصفحة الرئيسية";
+"Most Rides" = "أكثر الرحلات طلبا";
+"Best Drivers" = "أفضل السائقين";
+"Logout" = "تسجيل الخروج";
+"Language" = "اللغة";
+
+"Rides Created" = "الرحلات المنشأة";
+"Rides Joined" = "الرحلات المشتركة";
+"Vehicles" = "المركبات";
+"History" = "التاريخ";
+"Permits" = "التصاريح";
+"Permit" = "تصريح";
+"Search" = "بحث";
+"Saved Search" = "حفظ البحث";
+"Create Ride"  = "إنشاء رحلة";
+"Register Vehicle" = "تسجيل مركبة";
+"Dismiss" = "إلغاء";
+"You Don't Have Any Vehcile Registered" = "ليس لديك اى مركبه مسجله";
+"Do you want to Register it now?" = "هل تريد تسجيل مركبه الآن؟";
+"No permits found" = "عفوا لاتوجد تصاريح بعد";
+//Create Rides
+"No rides joined yet" = "عفوا ليس هناك رحلات مشتركة حتي الآن";
+"Do you want to leave this ride?" = "هل تريد مغادرة هذه الرحلة ؟";
+"Ride leaved successfully." = "لقد غادرت هذه الرحلة";
+"Select vehicle" = "اختر المركبة";
+"Confirm" = "موافق";
+"Delete" = "حذف";
+"DeleteNotifcationHeaderNot" = "حذف";
+"Edit" = "تعديل";
+"Do you want to delete this ride ?" = "هل أنت متأكد أنك تريد حذف هذه الرحلة ؟";
+"Ride Deleted successfully." = "تم إلغاء الرحلة بنجاح";
+"Saved Search" = "حفظ البحث";
+"Edit Ride" = "تعديل الرحلة";
+"Please configure your vehicles first" = "من فضلك أدخل المركبات الخاصة بك أولا";
+"Days Of Week" = "أيام الأسبوع";
+
+
+"Notifications" = "التنبيهات";
+"Attention" = "انتبه";
+"You must write your review first" = "يجب إدخال التعليق أولا";
+"You must write your remark first" = "يجب كتابة رسالتك أولا";
+
+//Creat Drive
+"You can't use this file number" = "عذرا,لا يمكنك استخدام ملف المرور ذلك";
+"License verified, but no cars found" = "رخصة القيادة صالحة ولكن لا توجد مركبات";
+"Invalid data please check again" = "بيانات غير صحيحة حاول مرة اخرى";
+//Driver Ride
+"Details" = "التفاصيل";
+"Driver" = "السائق";
+"Leave" = "مغادرة";
+
+"Sorry, you can't send any more invitations" = "لا يمكن ارسال المزيد من الدعوات";
+
+
+//Add review
+"Write Your Review" = "اكتب تعليقك";
+"Your Review" = "تعليقك";
+"Review" = "تعليق";
+"I’d like to join your ride" = "أريد الإنضمام إلي هذه الرحلة";
+"I’d like to invite you to my ride" = "ادعوك للإنضمام إلى رحلتي";
+"Write Your Remarks" = "إرسال دعوة إنضمام";
+"Your Remarks" = "الرسالة";
+
+
+"Map Lookup" = "الخريطة";
+"Starting Time :" = "وقت البداية :";
+"Set Direction" = "الوجهة";
+"Please set direction" = "من فضلك اختر الوجهة";
+"No Rides Found" = "لا توجد رحلات";
+"Please select from Emirate" = "من فضلك اختر الإمارة";
+"Please Enter from Region" = "يرجي اختيار المنطقة";
+"Please Enter to Region" = "يرجي اختيار المنطقة";
+"Please select to Emirate" = "من فضلك اختر الإمارة";
+"Top Rides" = "أكثر الرحلات طلبا";
+
+"Select Emirate" = "اختر الإمارة";
+"Please select from Emirate first" = "من فضلك اختر الإمارة أولا";
+"Please select to Emirate first" = "من فضلك اختر الإمارة أولا";
+"Please enter a valid to region name" = "من فضلك أدخل اسم المنطقة بطريقة صحيحة";
+"invalid start date or time" = "خطأ في تاريخ البدء أو وقت البدء";
+
+"Drivers" = "السائقين";
+"Passengers" = "الركاب";
+
+"Drivers :" = "السائقين :";
+"Passengers :" = "الركاب :";
+"Coming Rides :" = "الرحلات القادمة :";
+
+"From" = "من";
+"To" = "إلي";
+"Not Set" = "غير محدد";
+"Ride Days" = "أيام الرحلة";
+
+"Sat " = " السبت";
+"Sun " = " الأحد";
+"Mon " = " الأثنين";
+"Tue " = " الثلاثاء";
+"Wed " = " الأربعاء";
+"Thu " = " الخميس";
+"Fri " = " الجمعة";
+
+"Terms And Conditions" = "الشروط والأحكام";
+"Accept" = "موافق";
+"Policy" = "سياسة الخصوصية";
+"Search Results" = "نتائج البحث";
+"Has Accepted your request" = "وافق علي طلب الإنضمام";
+"Send you a join request" = "قام بإرسال طلب انضمام";
+"Notification Details" = "تفاصيل التنبيهات";
+
+"Mobile verification code has been sent to your mobile" = "تم أرسال كود التفعيل للرقم الحالي";
+"Please check your mobile number" = "الرجاء إدخال رقم الجوال الصحيح";
+
+"Please write your verification code" = "من فضلك أدخل كود التفعيل";
+"Write Your Code" = "ادخل كود التفعيل";
+"Your Code" = "كود التفعيل";
+"Resend verification code" = "إعادة إرسال الكود";
+"Enter verification code"  = "أدخل كود التفعيل";
+"Traffic File No." = "رقم الملف المروري";
+
+"Edit Profile" = "تعديل الحساب";
+"Nationalty must be selected" = "يجب عليك اختيار الجنسية";
+"Please check your username and password" = "يرجى التأكد من اسم المستخدم وكلمة المرور";
+"Edit profile info success" = "تم تحديث بيانات الحساب";
+"Select date of birth" = "برجاء التأكد من تاريخ الميلاد";
+"Verification Code is wrong" = "الكود خطأ";
+"Mobile Verified" = "تم تفعيل رقم الجوال";
+
+"Please select start point" = "الرجاء اختيار نقطة الانطلاق على الأقل";
+"Directions can't be edited." = "الطرق لايمكن تعديلها";
+"Please set startpoint and destination." = "من فضلك اختر نقطة الانطلاق ونقطة الوصول";
+"Please select Vehicle" = "يرجي اختيار المركبة";
+"Please enter ride name" = "من فضلك ادخل اسم الرحلة";
+"Please select start date" = "يرجي اختيار تاريخ البدء";
+"Please select start time" = "يرجي اختيار وقت البدء";
+"Please select number of available seats." = "يرجي اختيار عدد المقاعد المتاحة";
+"Please select days of week." = "من فضلك اختر على الأقل يوماً واحداً";
+"Ride edited successfully" = "تم تعديل بيانات الرحلة بنجاح";
+"Ride created successfully" = "تم إنشاء الرحلة بنجاح";
+"An error happend when trying to create ride" = "حدث خطأ عند إنشاء الرحلة";
+"Sorry, It's not allowed to create more than two rides" = "لا يمكن إضافة المزيد من الرحلات";
+"Sorry, you have yo have at least one ride" = "لا توجد مركبة مسجله";
+"Select Pickup Time" = "اخر وقت الإنطلاق";
+"Select Pickup Date" = "اختر تاريخ الإنطلاق";
+"Rating added successfully" = "تم التقييم بنجاح";
+"Unable to add Rating" = "لا يمكن إضافة التقييم الآن";
+"Ride Delete successfully." = "تم حذف الرحلة بنجاح";
+"An error occured when deleting ride" = "تم حدوث خطأ عند حذف الرحلة";
+"Passenger removed successfully" = "تم حذف الراكب";
+"Unable to remove the passenger" = "لا تستطيع حذف الراكب";
+"Mobile Number not available" = "رقم الجوال غير متاح";
+"Do you want to delete this passenger ?" = "هل تريد حذف الراكب ؟";
+
+"No history" = "لا يوجد تواريخ";
+"Do you want to leave this ride" = "هل أنت متأكد أنك تريد مغادرة هذه الرحلة ؟";
+"An error occured when leaving ride" = "تم حدوث خطأ اثناء مغادرة الرحلة";
+"Permit added successfully." = "تم إضافة التصريح بنجاح";
+"Invalid birthdate" = "تاريخ الميلاد غير صحيح";
+
+"Male" = "ذكر";
+"Female" = "أنثي";
+"Both" = "كلاهما";
+"Yes" = "نعم";
+"No" = "لا";
+"Dubai" = "دبي";
+
+"Please Choose account type." = "من فضلك اختر نوع الحساب";
+"No camera on device" = "لا توجد كاميرا";
+"You cannot choose year before 1900" = "لا يمكن اختيار سنة أقل من ١٩٩٠";
+"Photo Library" = "مكتبة الصور";
+"Camera" = "الكاميرا";
+
+
+"You don't have joined rides yet" = "عفوا، لا توجد رحلات مشترك بها بعد";
+"You don't have created rides yet" = "عفوا لا توجد رحلات منشأة";
+"Received your request and waiting for approval" = "تم إرسال الطلب بنجاح و انتظر موافقة السائق";
+
+"Request deleted successfully" = "تم حذف الطلب";
+"Cannot delete Request" = "لا يمكن حذف الطلب";
+
+"Do you want to delete this review ?" = "هل تريد حذف التعليق ؟";
+"Edit Review" = "تعديل التعليق";
+"Review deleted successfully" = "تم حذف التعليق بنجاح";
+"Cannot delete Review" = "لا يمكن حذف التعليق";
+"Password must be at least 5 characters" = "كلمة المرور يجب أن لا تقل عن ٥ حروف";
+"No Specified" = "غير محدد";
+"data are not matching" = "البيانات غير صحيحة";
+"Not Specified" = "غير محدد";
+"No Specified" = "غير محدد";
+"Error" = "خطأ";
+"You don't have any notifications" = "لا يوجد لديك تنبيهات";
+"Do you want to delete this request ?" = "هل تريد حذف هذا الطلب ؟";
+"Request had been sent Successfully , Wait for driver Approval." = "تم إرسال الطلب بنجاح وفى انتظار موافقة السائق";
+"Request had been sent Successfully , wait for Passenger's Approval" = "تم إرسال الطلب بنجاح وفى إنتظار موافقة الراكب";
+
+"Has Accepted your invitation" = "قام بقبول دعوتك";
+"Received your invitation and waiting for approval" = "تم إستلام دعوتك , انتظر الموافقة";
+"Send you a invitation request" = "بعث لك بطلب دعوه";
+
+"Cannot delete invitation" =  "لا يمكن حذف الطلب";
+"Invitation deleted successfully" = "تم مسح الطلب بنجاح";
+"Do you want to delete this invitation ?" = "هل تريد مسح الدعوة؟";
+"Has Rejected your invitation" = "قد رفض طلبك";
+
+"Share" = "مشاركة";
+
+
+"Sorry but you have to be logged in facebook to share" = "عذرا, لا تستطيع مشاركة رحلتك ما لم تكن مسجل دخولك على الفيس بوك " ;
+
+"Please click on set direction button to set start and end point" = "يرجي الضغط علي زر الوجهة لاختيار نقطة الانطلاق والوصول";
+/*
+ 
+ */
+ "Upload your photo" = "تحميل صورة شخصية";
+"I accept the RTA's terms and conditions" = "موافق على الشروط والأحكام";
+"Privacy and Policy" = "سياسة الخصوصية";
+"Register Now" = "سجل الآن";
+"Forget Password?" = "نسيت كلمة المرور؟";
+
+"Passenger" = "راكب";
+"Start Time" = "وقت البدء";
+"Start Date" = "تاريخ البدء" ;
+"Single Ride" = "رحلة واحدة";
+"Periodic" = "متكررة";
+"Optional" = "إختيارى" ;
+"Smokers" = "المدخنين";
+"Not Accept" = "غير موافق";
+"This app" = "لهذا التطبيق";
+"Micro app" = "مايكرو آب";
+"Transation" = "Transation";
+
+"Help & FAQ" = "الأسئلة الشائعة";
+"No Passengers Found" = "لا يوجد ركاب" ;
+//map LookUp
+
+"Please turn on GPS first" = "الرجاء تشغيل نظام تحديد المواقع أولاً" ;
+
+"Preferred Gender" = "النوع المفضل";
+"Gender" = "النوع";
+"Verify" = "التحقق";
+"Date of birth" = "تاريخ الميلاد" ;
+"Refresh" = "تحديث";
+"Matched Search Results" = "نتائج البحث المطابق";
+"Available Seats" = "المقاعد المتاحة";
+"Preferences" = "التفضيلات";
+
+"Happy Meter" = "السعادة";
+
+"Filipino" = "Filipino";
+"Chinese" = "中国";
+"Arabic" = "العربية";
+"English" = "English";
+"Urdu" = "اردو";
+
+"Pick up" = "الإنطلاق";
+"Drop off" = "الوصول";
+
+"Select Region" = "اختر المنطقة";
+
+"Join Ride" = "الانضمام للرحلة";
+"Last Seen" = "اخر مشاهدة";
+"Points" = "نقاط";
+"Km" = "Km";
+"Routes" = "طرق";
+"Co2 Saving" = "CO2 استهلاك";
+
+"Invite" = "إرسال دعوه";
+"+18 Years"= "+18 عاما" ;
+"Save" = "تسجيل";
+
+"There is no saved search yet." = "لا توجد رحلات مشترك بها بعد";
