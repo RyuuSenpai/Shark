@@ -618,7 +618,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 140;
         [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Last name mustn't have numbers")];
     }
     else if (![self isValidMobileNumber]){
-        [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Mobile Number should be only 9 and should start with [50 – 55 – 56 – 52]")];
+        [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Mobile Number should be only 9 and should start with [50 – 55 – 56 – 52 - 58]")];
     }
    /* else if (([[HelpManager sharedHelpManager] yearsBetweenDate:[NSDate date] andDate:self.date] < 18))
     {
@@ -720,7 +720,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 140;
     }else {
             _NationalitySub = @"0";
     }
-
+    NSLog(@"that is the mobile number %@",self.mobileNumber);
 [[MobAccountManager sharedMobAccountManager] updateUserProfileWithAccountID:[NSString stringWithFormat:@"%@",self.sharedUser.ID] firstName:[self SpacesRemover:self.firstName] lastName:[self SpacesRemover:self.lastName] gender:self.isMale ? @"M":@"F" imagePath:photoName birthDate:11/11/1988 nationalityID: _NationalitySub /*self.selectedNationality.ID */PreferredLanguageId:self.selectedLanguage.LanguageId Mobile:self.mobileNumber WithSuccess:^(NSString *user) {
     
     [KVNProgress dismiss];
@@ -729,6 +729,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 140;
     
 } Failure:^(NSString *error)
  {
+     NSLog(@" Error : : %@",error);
      [KVNProgress dismiss];
      [[HelpManager sharedHelpManager] showAlertWithMessage:error];
  }];
@@ -925,7 +926,7 @@ shouldStyleAutoCompleteTableView:(UITableView *)autoCompleteTableView
 
 - (BOOL) isValidMobileNumber
 {
-    NSArray *begins = @[@"50",@"55",@"56",@"52"];
+    NSArray *begins = @[@"50",@"55",@"56",@"52",@"58"];
     NSString *mobileNumber = self.mobileNumberTxt.text;
     NSString *begin = [mobileNumber substringToIndex:mobileNumber.length > 2 ? 2 : 0];
     

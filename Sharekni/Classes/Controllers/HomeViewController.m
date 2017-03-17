@@ -88,7 +88,8 @@
 @property (strong , nonatomic) NSString * notificationCountTxt ;
 @property (strong , nonatomic) NSNumber * notificationCountForUrl ;
 
-
+@property (nonatomic,strong) NSString *MProfileImage;
+@property (nonatomic,strong) NSString *FProfileImage;
 @property (nonatomic,strong) User *sharedUser;
 @end
 
@@ -494,12 +495,75 @@ NSArray* language ;
         }
     }else {
         
+        switch ([[Languages sharedLanguageInstance] language]) {
+                
+                
+            case Arabic:
+                //
+                if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
+                    
+                    _MProfileImage = @"imageaftereditar.png";
+                }else{
+                    //                    NSLog(self.sharedUser.GenderAr);
+                    _FProfileImage = @"imageaftereditfemale.png";
+                }
+                break;
+            case English:
+                //
+                if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
+                    
+                    _MProfileImage = @"imageafterediten.png";
+                }else{
+                    //                    NSLog(self.sharedUser.GenderAr);
+                    _FProfileImage = @"imageaftereditfemale.png";
+                }
+                break;
+            case Chines:
+                //
+                if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
+                    
+                    _MProfileImage = @"imageafterediten_ch.png";
+                }else{
+                    //                    NSLog(self.sharedUser.GenderAr);
+                    _FProfileImage = @"imageaftereditfemale_ch.png";
+                }
+                break;
+            case Philippine:
+                //
+                
+                if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
+                    
+                    _MProfileImage = @"imageafterediten_fi.png";
+                }else{
+                    //                    NSLog(self.sharedUser.GenderAr);
+                    _FProfileImage = @"imageaftereditfemale_fi.png";
+                }
+            case Urdu:
+                //
+                if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
+                    
+                    _MProfileImage = @"Urduimageafterediten.png";
+                }else{
+                    //                    NSLog(self.sharedUser.GenderAr);
+                    _FProfileImage = @"Urduimageaftereditfemale.png";
+                }
+                break;
+            default:
+                NSLog(@"Error with the language Image Picker");
+                break;
+        }
+        
+        
+        NSLog(@"self.sharedUser.IsPhotoVerified :%@",self.sharedUser.IsPhotoVerified);
+        
+        NSLog(@"IsMobileVerified :%@",self.sharedUser.IsMobileVerified);
+        
         
         NSLog(@"NoImage.png result from UrlImage √");
         if ([self.sharedUser.GenderEn  isEqual: @"Male"] || [self.sharedUser.GenderAr  isEqual: @"ذكر"]) {
-            self.profileImageView.image = self.sharedUser.userImage ? self.sharedUser.userImage : [UIImage imageNamed:@"defaultdriver.jpg"];
+            self.profileImageView.image = self.sharedUser.userImage ? self.sharedUser.userImage : [UIImage imageNamed:_MProfileImage];
         }else {
-            self.profileImageView.image = self.sharedUser.userImage ? self.sharedUser.userImage : [UIImage imageNamed:@"defaultdriverfemale.jpg"];
+            self.profileImageView.image = self.sharedUser.userImage ? self.sharedUser.userImage : [UIImage imageNamed:_FProfileImage];
         }
     }
     

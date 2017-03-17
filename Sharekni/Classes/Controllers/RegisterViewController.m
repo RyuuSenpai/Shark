@@ -652,7 +652,7 @@ static const CGFloat LANDSCAPE_KEYBOARD_HEIGHT = 140;
         [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Last name mustn't have numbers")];
     }
     else if (![self isValidMobileNumber]){
-        [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Mobile Number should be only 9 and should start with [50 – 55 – 56 – 52]")];
+        [[HelpManager sharedHelpManager] showAlertWithMessage:GET_STRING(@"Mobile Number should be only 9 and should start with [50 – 55 – 56 – 52 - 58]")];
     }
     else if (![self IsValidEmail:self.userName]){
         UIAlertView *alertView = [[UIAlertView  alloc] initWithTitle:NSLocalizedString(@"", nil) message:GET_STRING(@"Please enter a valid email address") delegate:self cancelButtonTitle:GET_STRING(@"Ok") otherButtonTitles:nil, nil];
@@ -1175,7 +1175,7 @@ shouldStyleAutoCompleteTableView:(UITableView *)autoCompleteTableView
 }
 
 - (BOOL) isValidMobileNumber{
-    NSArray *begins = @[@"50",@"55",@"56",@"52"];
+    NSArray *begins = @[@"50",@"55",@"56",@"52" , @"58"];
     NSString *mobileNumber = self.mobileNumberTxt.text;
     NSString *begin = [mobileNumber substringToIndex:mobileNumber.length > 2 ? 2 : 0];
     

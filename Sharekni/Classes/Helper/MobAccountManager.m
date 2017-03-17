@@ -534,7 +534,10 @@ NSString *path = [NSString stringWithFormat:@"cls_mobios.asmx/ChangePassword?id=
     [self.operationManager GET:path parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
         NSString *responseString = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
         responseString = [self jsonStringFromResponse:responseString];
+        NSLog(@"---------------");
         NSLog(@"delete response :%@",responseString);
+        NSLog(@"---------------");
+
         if ([responseString containsString:@"1"])
         {
             success(YES);
@@ -662,10 +665,17 @@ NSString *path = [NSString stringWithFormat:@"cls_mobios.asmx/ChangePassword?id=
 {
     NSString *body = [NSString stringWithFormat:@"CLS_Mobios.asmx/EditProfile?id=%@&firstName=%@&lastName=%@&gender=%@&NewPhotoName=%@&BirthDate=%@&NationalityId=%@&PreferredLanguageId=%@&Mobile=%@",accountID,firstName,lastName,gender,photoName,birthDate,nationalityId,langID,mobile];
     
+    NSLog(@"---------------");
+    NSLog(@"updateUserProfileWithAccountID :(%@)" ,body);
+    NSLog(@"---------------");
     [self.operationManager GET:body parameters:nil success:^void(AFHTTPRequestOperation * operation, id responseObject) {
         NSString *responseString = [[NSString alloc] initWithData:responseObject encoding:NSUTF8StringEncoding];
         responseString = [self jsonStringFromResponse:responseString];
         
+        NSLog(@"---------------");
+        NSLog(@"updateUserProfileWithAccountID responseString (%@)" ,responseString);
+        NSLog(@"---------------");
+
         if([responseString containsString:@"1"])
         {
             success(responseString);
@@ -673,6 +683,9 @@ NSString *path = [NSString stringWithFormat:@"cls_mobios.asmx/ChangePassword?id=
         else if ([responseString containsString:@"0"])
         {
             failure(@"Failed");
+        } else if ([responseString containsString:@"3"])
+        {
+            failure(GET_STRING(@"Mobile number already exists"));
         }
     } failure:^void(AFHTTPRequestOperation * operation, NSError * error) {
         failure(@"cannot register");

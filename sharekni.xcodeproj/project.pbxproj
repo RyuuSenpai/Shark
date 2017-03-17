@@ -324,7 +324,7 @@
 		048912AC1BB926A6005E4E02 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
 		048912AE1BB933B8005E4E02 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		048912AF1BB933B8005E4E02 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		04931B1B1BAAF814000F5434 /* Sharekni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sharekni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04931B1B1BAAF814000F5434 /* 	.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "	.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04931B1F1BAAF814000F5434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04931B201BAAF814000F5434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04931B261BAAF814000F5434 /* Sharekni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sharekni.xcdatamodel; sourceTree = "<group>"; };
@@ -748,7 +748,7 @@
 		04931B1C1BAAF814000F5434 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04931B1B1BAAF814000F5434 /* Sharekni.app */,
+				04931B1B1BAAF814000F5434 /* 	.app */,
 				04931B371BAAF815000F5434 /* SharekniTests.xctest */,
 			);
 			name = Products;
@@ -1351,9 +1351,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04931B1A1BAAF814000F5434 /* Sharekni */ = {
+		04931B1A1BAAF814000F5434 /* 	 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04931B411BAAF815000F5434 /* Build configuration list for PBXNativeTarget "Sharekni" */;
+			buildConfigurationList = 04931B411BAAF815000F5434 /* Build configuration list for PBXNativeTarget "	" */;
 			buildPhases = (
 				2BC78500AA30AE2477805290 /* Check Pods Manifest.lock */,
 				04931B171BAAF814000F5434 /* Sources */,
@@ -1365,9 +1365,9 @@
 			);
 			dependencies = (
 			);
-			name = Sharekni;
+			name = "	";
 			productName = Sharekni;
-			productReference = 04931B1B1BAAF814000F5434 /* Sharekni.app */;
+			productReference = 04931B1B1BAAF814000F5434 /* 	.app */;
 			productType = "com.apple.product-type.application";
 		};
 		04931B361BAAF815000F5434 /* SharekniTests */ = {
@@ -1399,6 +1399,7 @@
 					04931B1A1BAAF814000F5434 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 89SHAPC6FM;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -1429,7 +1430,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04931B1A1BAAF814000F5434 /* Sharekni */,
+				04931B1A1BAAF814000F5434 /* 	 */,
 				04931B361BAAF815000F5434 /* SharekniTests */,
 			);
 		};
@@ -1744,7 +1745,7 @@
 /* Begin PBXTargetDependency section */
 		04931B391BAAF815000F5434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04931B1A1BAAF814000F5434 /* Sharekni */;
+			target = 04931B1A1BAAF814000F5434 /* 	 */;
 			targetProxy = 04931B381BAAF815000F5434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1847,8 +1848,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1876,7 +1877,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 89SHAPC6FM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1888,8 +1889,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rta.ae.sharekni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8641dd09-af6b-4928-9aea-e46d5900a332";
-				PROVISIONING_PROFILE_SPECIFIER = Sharekni_AppStore;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1902,8 +1903,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Roads & Transport Authority (89SHAPC6FM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roads & Transport Authority (89SHAPC6FM)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 89SHAPC6FM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1914,7 +1916,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rta.ae.sharekni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "30e41b80-40f6-4538-8001-37f38e36971d";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1967,7 +1970,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04931B411BAAF815000F5434 /* Build configuration list for PBXNativeTarget "Sharekni" */ = {
+		04931B411BAAF815000F5434 /* Build configuration list for PBXNativeTarget "	" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04931B421BAAF815000F5434 /* Debug */,
